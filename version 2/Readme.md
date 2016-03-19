@@ -4,6 +4,33 @@ The data should be contained in a json file from which things should be parsed.
 
 The [circular timeline][resume circular timeline] is impressive. I need to make a couple different versions. One for distribution, on paper, and another for an online demonstration. 
 
+Updates in this version ...
+
+1. The major change is the fact that the folder structure is going to change significantly. The current folder structure will be as follows:
+
+```bash
+    .
+    ├── Readme.md
+    ├── assets
+    │   └── assets
+    │       ├── common
+    │       │   ├── css
+    │       │   │   └── main.css
+    │       │   ├── img
+    │       │   └── js
+    │       │       └── functions.js
+    │       └── lib
+    │           └── d3
+    │               ├── LICENSE
+    │               ├── d3.js
+    │               └── d3.min.js
+    └── index.html
+```
+
+2. The data and the code is separated into different javascript files. The data is a jason-style javascript object. All of the functionallity is converted into small manaagble chunks ...
+
+
+
 ##References:
 1. [The circular timeline ][resume circular timeline]
 2. [The infographic][infographic resume]

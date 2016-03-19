@@ -1,6 +1,7 @@
-{
+var resume = {
     "Education":[
-        "Bachelor of Engineering":{
+        {
+            "Degree": "Bachelor of Engineering",
             "Acronym": "B.E.",
             "Start":[01,04,1997],
             "End":[01,04,2001],
@@ -13,7 +14,8 @@
                 "Country": "India"
             }
         },
-        "Maste of Science":{
+        {
+            "Degree": "Master of Science",
             "Acronym": "M.S.",
             "Start":[01,04,2002],
             "End":[01,04,2004],
@@ -26,7 +28,8 @@
                 "Country": "U.S."
             }
         },
-        "Doctor of Philosophy":{
+        {
+            "Degree": "Doctor of Philosophy",
             "Acronym": "Ph.D.",
             "Start":[01,04,2004],
             "End":[15,12,2009],
@@ -48,5 +51,4 @@
     "Papers":{
 
     }
-}
-
+};
